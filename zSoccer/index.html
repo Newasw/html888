@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Kvantorium Runner</title>
+	<style>
+		.logo{
+			width: 50px;
+    		height: 50px;
+   			padding: 50px;
+    		max-width: 50px;
+		}
+
+		.full-width-img-responsive{
+			width: 100%;
+			height: 100%;
+  			margin: 0;
+			padding: 0;
+		} 
+
+		.monk{
+    		padding: 20px; /* Поля вокруг текста */
+    		margin-top: 0px
+    		margin-bottom: 1000px; /* Отступ снизу */
+		}
+	</style>
+
+	<meta name="description" content="Free Responsive Html5 Css3 Templates | zerotheme.com">
+	<meta name="author" content="www.zerotheme.com">
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+  	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/responsiveslides.css">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<script src="js/jquery-latest.min.js"></script>
+	<script src="js/script.js"></script>
+    <script src="js/jquery183.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+		  // Slideshow 
+		  $("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			before: function () {
+			  $('.events').append("<li>before event fired.</li>");
+			},
+			after: function () {
+			  $('.events').append("<li>after event fired.</li>");
+			}
+		  });
+		});
+	</script>
+	
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+    
+</head>
+<body>
+<div class="wrap-body">
+
+<header>
+	<div class="wrap-header-zerogrid">
+		<div class="row">
+			<div id="cssmenu">
+				<ul>
+				   <li class='active'><a href="index.html">Главная</a></li>
+				   <li><a href="archive.html">О проекте</a></li>
+				   <li><a href="single.html">Наша команда</a></li>
+				   <li><a href="contact.html">Контакты</a></li>
+				</ul>
+			</div>
+			<a href='index.html' class="logo"><img src="images/logo.png" width="120" height="120" /></a>
+		</div>
+	</div>
+</header>
+
+<div class="keverunnier">
+	<div class="kvruiner">
+		<img class="full-width-img-responsive" src="images/kvrunnerlogo.jpg" alt="Portfolio Image">
+	</div>
+</div>
+
+<div class="bg-white">
+	<div class="zerogrid">
+		<div class="callbacks_container">
+			<ul class="rslides" id="slider">
+				<li>
+					<img src="images/slideshow-image1.jpg" alt="">
+					<div class="caption">
+						<h1>О проекте</h1>
+						<span>Kvanorium Runner 2020 редставляет собой экскурсию по Технопарку Кванториум. Она включает в себя квесты в виде 	  мини-игр.
+							  В демоверсии Вам предстоит изучить IT-квантум во всех подробностях и найти выход из комнаты. В последующих обновлениях станут доступны и другие отделения Технопарка. На протяжении всей игры вас будет сопровождать Персонаж, к которому вы сможете обратиться за помощью. По мере прохождения вам станут доступны дополнительные квесты.
+							  Все игры выполнены в виде скриптов, написанных в командной строке. Такие игры создают обитатели IT-квантума в первое время обучения.</span>
+					</div>
+				</li>
+				<li>
+					<img src="images/slideshow-image2.jpg" alt="">
+					<div class="caption">
+						<h1>Наша цель</h1>
+						<span>Увеличить количество желающих поступить в Кванториум минимум на 15%</span>
+					</div>
+				</li>
+				<li>
+					<img src="images/slideshow-image3.jpg" alt="">
+					<div class="caption">
+						<h1>Наши задачи</h1>
+						<span>- Разработать игру, которая покажет жизнь Кванториума изнутри <br> - Разработать маркетинговую план-презентацию проекта <br> - Распостранить презентацию и продукт, повышая интерес целевой аудитории к Кванториуму</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<section id="container" class="home-page">
+	<div class="wrap-container clearfix">
+		<div id="main-content">
+			<section class="content-box box-1 box-style-1"><!--Start Box-->
+				<div class="wrap-box">
+					<div class="zerogrid">
+						<div class="row">
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="sub-title">
+										<h2>История проекта</h2>
+									</div>
+									<div class="item">
+										<img src="images/logo2.png" />
+										<div class="item-content">
+											<a href="single.html"><h3>Как мы создавали логотип</h3></a>
+											<div class="info">Опубликовано: 24 апреля, 2020 </div>
+											<p>Black alloys, Sat Nav, Bluetooth, 4 seats, Ceramic Brakes, Power boot, Soft closing doors, Alcantara roof lining, Double glazing, Keyless entry, Keyless start, Carbon fibre dash and door inserts, IPod connection. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+											<a href="#">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="sub-title">
+										<h2>Процесс разработки</h2>
+									</div>
+									<div class="row">
+										<div class="item">
+											<div class="item-content">
+												<a href="single.html"><h3>Процесс разработки</h3></a>
+												<div class="info">Публикация: 10.03.2020</div>
+												<p>Наши программисты создали мини-игры, основываясь на опыте, полученном при обучении в Кванториуме. Здесь и терминал, и кодовый замок, а также всеми любимые крестики нолики.
+												На прохождении игр завязано развитие сюжета, так что, по мере знакомства с новым пространством, советуем не упускать из виду ни одной мелкой детали.</p>
+												<a href="#">Read More</a>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="item">
+											<div class="item-content">
+												<a href="single.html"><h3>Внутриигровое пространство</h3></a>
+												<div class="info">Публикация: 10.03.2020</div>
+												<p>В целом вымысла здесь нет. Может только самую чуточку.
+												Посудите сами: здание, насколько это возможно, схожее с реальностью, компьютеры, столы... NPC не в счёт!
+												Айтипушка станет твоим верным другом и помощником, так что постарайся, пожалуйста, не обижать его. Он точно такой же обитатель IT-квантума, как и все, кто трудился над созданием игры. Он - олицетворение той атмосферы, которая царит в стенах нашей загадочной обители.</p>
+												<a href="#">Read More</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="sub-title">
+										<h2>История проекта</h2>
+									</div>
+									<div class="item">
+										<img src="images/logo2.png" />
+										<div class="item-content">
+											<a href="single.html"><h3>Создание 3D-моделей</h3></a>
+											<div class="info">Опубликовано: 24 апреля, 2020 </div>
+											<p>Изначально на курсе IT не обсуждается такая отрасль, как создание 3D-моделей,
+											но никто же не запрещал развиваться в нескольких направлениях одновременно, не так ли?
+											С течением времени в нашей группе появилась команда моделлеров, создавших всё внутриигровое пространство с нуля. Они тщательно исследовали Кванториум, чтобы за отведённый срок воссоздать помещения и обстановку, присущие нашему любимому технопарку.</p>
+											<a href="#">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+</section>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="content-box box-2 box-style-3">
+				<div class="wrap-box">
+					<div class="zerogrid">
+						<div class="title">
+						</div>	
+						<div class="row">
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a href="single.html">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"></i><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user1.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a><h3>Мария Булычева</h3></a>
+											<p>Сценарист, дизайнер. Продумала дизайн маскотов и концепт логотипа. Aвтор аннотаций.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a href="single.html">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user2.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a><h3>Михаил Большаков</h3></a>
+											<p>Саунд-продюсер. Написал саундреки для игры, этот процесс отнял у него много моральных ресурсов.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a href="single.html">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user3.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a><h3>Михаил Свистунов</h3></a>
+											<p>HTML-программист, веб-разработчик. Разработал модуль таймера обратного отсчета.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a href="single.html">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user4.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a><h3>Ратибор Ванин</h3></a>
+											<p>3D-моделлер, монтажер. Создал всё наполнение игрового пространства. Снимал и монтировал видео-отчеты. </p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+<footer>
+	<div class="zerogrid top-footer">
+	<div class="zerogrid wrap-footer">
+		<div class="row">
+			<div class="col-1-4 col-footer-1">
+				<div class="wrap-col">
+					<h3>Местоположение</h3>
+					<p>Ул. Ульянова 10б
+					Нижний Новгород, Россия</p>
+				</div>
+			</div>
+			<div class="col-1-4 col-footer-2">
+				<div class="wrap-col">
+					<h3>Телефон</h3>
+					<p>+7 999-999-99-99</p>
+				</div>
+			</div>
+			<div class="col-1-4 col-footer-3">
+				<div class="wrap-col">
+					<h3>Эл. почта</h3>
+						<p>kvrunner@gmail.com</p>
+				</div>
+			</div>
+			<div class="col-1-4 col-footer-4">
+				<div class="wrap-col">
+					<h3>Наш сайт</h3>
+						<p>kvrunner.com</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</body></html>
