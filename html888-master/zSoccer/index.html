@@ -1,0 +1,687 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Kvantorium Runner</title>
+	<style>
+		.logo{
+			width: 50px;
+    		height: 50px;
+   			padding: 50px;
+    		max-width: 50px;
+		}
+
+		.full-width-img-responsive{
+			width: 100%;
+			height: 100%;
+  			margin: 0;
+			padding: 0;
+		} 
+
+		.monk{
+    		padding: 20px; /* Поля вокруг текста */
+    		margin-top: 0px
+    		margin-bottom: 1000px; /* Отступ снизу */
+		}
+
+.mam{
+ 			 text-align: center;
+ 			 background: #fff;
+ 			 font-family: sans-serif;
+  			font-weight: 100;
+			}
+
+
+ .caption{}
+
+.countdown-title {
+  color: #000000;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+ 
+.countdown {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+ 
+.countdown-number {
+  padding: 10px;
+  border-radius: 3px;
+  background: #000000;
+  display: inline-block;
+}
+ 
+.countdown-time {
+  padding: 15px;
+  border-radius: 3px;
+  background: #000000;
+  display: inline-block;
+}
+ 
+.countdown-text {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+		}
+.title_1{
+	  text-align: center;
+
+}
+.vid{
+  text-align: center;	
+}
+.txt_vid{  text-align: center;}
+
+
+	</style>
+
+	<meta name="description" content="Free Responsive Html5 Css3 Templates | zerotheme.com">
+	<meta name="author" content="www.zerotheme.com">
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+  	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/responsiveslides.css">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<script src="js/jquery-latest.min.js"></script>
+	<script src="js/script.js"></script>
+    <script src="js/jquery183.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+		  // Slideshow 
+		  $("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			before: function () {
+			  $('.events').append("<li>before event fired.</li>");
+			},
+			after: function () {
+			  $('.events').append("<li>after event fired.</li>");
+			}
+		  });
+		});
+	</script>
+	
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+    
+</head>
+<body>
+<div class="wrap-body">
+
+<header>
+	<div class="wrap-header-zerogrid">
+		<div class="row">
+			<div id="cssmenu">
+				<ul>
+				   <li class='active'><a href= "#home">Главная</a></li>
+				   <li><a href="#pj">О проекте</a></li>
+				   <li><a href="#team">Наша команда</a></li>
+				   <li><a href="#end">Контакты</a></li>
+				</ul>
+			</div>
+			<a href='index.html' class="logo"><img src="images/logo.png" width="120" height="120" /></a>
+		</div>
+	</div>
+</header>
+
+<div class="keverunnier">
+	<div class="kvruiner">
+		<img class="full-width-img-responsive" src="images/kvrunnerlogo.jpg" alt="Portfolio Image">
+	</div>
+</div>
+<div class="mam" >
+<h1 class="countdown-title">Deadline</h1>
+<div id="countdown" class="countdown">
+  <div class="countdown-number">
+    <span class="days countdown-time"></span>
+    <span class="countdown-text">Days</span>
+  </div>
+  <div class="countdown-number">
+    <span class="hours countdown-time"></span>
+    <span class="countdown-text">Hours</span>
+  </div>
+  <div class="countdown-number">
+    <span class="minutes countdown-time"></span>
+    <span class="countdown-text">Minutes</span>
+  </div>
+  <div class="countdown-number">
+    <span class="seconds countdown-time"></span>
+    <span class="countdown-text">Seconds</span>
+  </div>
+<script src="./js/script_1.js"></script>
+</div> 
+</div>
+<div class="bg-white">
+	<div class="zerogrid">
+		<div class="callbacks_container", id="pj">
+			<ul class="rslides" id="slider">
+				<li>
+					<img width="100%" height="400px" src="images/slideshow-image1.jpg" alt="">
+					<div class="caption">
+						<h1>О проекте</h1>
+						<span>Kvanorium Runner 2020 редставляет собой экскурсию по Технопарку Кванториум. Она включает в себя квесты в виде 	  мини-игр.
+							  В демоверсии Вам предстоит изучить IT-квантум во всех подробностях и найти выход из комнаты. В последующих обновлениях станут доступны и другие отделения Технопарка. На протяжении всей игры вас будет сопровождать Персонаж, к которому вы сможете обратиться за помощью. По мере прохождения вам станут доступны дополнительные квесты.
+							  Все игры выполнены в виде скриптов, написанных в командной строке. Такие игры создают обитатели IT-квантума в первое время обучения.</span>
+					</div>
+				</li>
+				<li>
+					<img width="100%" height="400px" src="images/slideshow-image2.jpg" alt="">
+					<div class="caption">
+						<h1>Наша цель</h1>
+						<span>Увеличить количество желающих поступить в Кванториум минимум на 15%</span>
+					</div>
+				</li>
+				<li>
+					<img width="100%" height="200px" src="images/slideshow-image3.jpg" alt="">
+					<div class="caption">
+						<h1>Наши задачи</h1>
+						<span>- Разработать игру, которая покажет жизнь Кванториума изнутри <br> - Разработать маркетинговую план-презентацию проекта <br> - Распостранить презентацию и продукт, повышая интерес целевой аудитории к Кванториуму</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<section id="container" class="home-page">
+	<div class="wrap-container clearfix">
+		<div id="main-content">
+			<section class="content-box box-1 box-style-1"><!--Start Box-->
+				<div class="wrap-box">
+					<div class="zerogrid">
+						<div class="row">
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="sub-title">
+										<h2>Просто</h2>
+
+									</div>
+									<div class="item">
+										<img src="images/logo2.png" />
+										<div class="item-content">
+											<a><h3>Внутриигровое пространство</h3></a>
+											<div class="info">Опубликовано: 24 апреля, 2020 </div>
+											<p>В целом вымысла здесь нет. Может только самую чуточку.
+												Посудите сами: здание, насколько это возможно, схожее с реальностью, компьютеры, столы... NPC не в счёт!
+												Айтипушка станет твоим верным другом и помощником, так что постарайся, пожалуйста, не обижать его. Он точно такой же обитатель IT-квантума, как и все, кто трудился над созданием игры. Он - олицетворение той атмосферы, которая царит в стенах нашей загадочной обители.</p>
+											<a href="./RM_1.html">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="sub-title">
+										<h2>Живи  </h2>
+									</div>
+									<div class="row">
+										<div class="item">
+											<div class="item-content">
+												<a><h3>Процесс разработки</h3></a>
+												<div class="info">Публикация: 10.03.2020</div>
+												<p>Наши программисты создали мини-игры, основываясь на опыте, полученном при обучении в Кванториуме. Здесь и терминал, и кодовый замок, а также всеми любимые крестики нолики.
+												На прохождении игр завязано развитие сюжета, так что, по мере знакомства с новым пространством, советуем не упускать из виду ни одной мелкой детали.</p>
+												<a href="./RM_2.html">Read More</a>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="item">
+											<img src="images/logo2.png" />
+											<div class="item-content">
+												<a href="single.html"><h3></h3></a>
+												<div class="info"></div>
+												<p></p>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="sub-title">
+										<h2>Учась </h2>
+									</div>
+									<div class="item">
+										<img src="images/logo2.png" />
+										<div class="item-content">
+											<a><h3>Создание 3D-моделей</h3></a>
+											<div class="info">Опубликовано: 24 апреля, 2020 </div>
+											<p>Изначально на курсе IT не обсуждается такая отрасль, как создание 3D-моделей,
+											но никто же не запрещал развиваться в нескольких направлениях одновременно, не так ли?
+											С течением времени в нашей группе появилась команда моделлеров, создавших всё внутриигровое пространство с нуля. Они тщательно исследовали Кванториум, чтобы за отведённый срок воссоздать помещения и обстановку, присущие нашему любимому технопарку.</p>
+											<a href="./RM_3.html">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							</div>
+							
+						</div>
+					</div>
+				<div class="wrap-box">
+
+					<div class="zerogrid">
+						<div class="row">
+							<div class="col-1-3">
+								<div class="wrap-col">
+									
+									<div class="item">
+										<img src="images/logo2.png" />
+
+									</div>
+								</div>
+							</div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									
+									<div class="row">
+										<div class="item">
+											<div class="item-content">
+												<a><h3>Наши шаги по созданию сайта</h3></a>
+												<div class="info">Публикация: 25.05.2020</div>
+												<p>1.Нашли подходяший под наши нужды шаблон.</p>
+												<p>2.Заменили начинку сайта своей.</p>
+												<p>3.Добавили недостающие модули: 1)Таймер 2) Блок команды.</p>
+												<p>4.Доделали все гиперссылки.</p>
+												<p>5.Последние штрихи.</p>
+												<p>6.Залили на сервер.</p>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="item">
+											
+											<div class="item-content">
+												<a href="single.html"><h3></h3></a>
+												<div class="info"></div>
+												<p></p>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									
+									<div class="item">
+										<img src="images/logo2.png" />
+								
+									</div>
+								</div>
+							</div>
+
+
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+
+
+</section>
+<div class="txt_vid"><h1> Наше видео</h1></div>>
+<div class="vid">
+	<iframe width="1180px" height="400px" src="https://www.youtube.com/embed/W7m8tcxsKfc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>>
+
+
+
+			<section class="content-box box-2 box-style-3">
+				<div class="wrap-box">
+					<div class="zerogrid" , id = "team">
+						<div class="title_1">
+							<h1><font color="black" face="Arial">Наша команда</font></h1>
+						</div>	
+						<div class="row">
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a target="_blank" href="https://vk.com/v_soika">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"></i><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user1.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a href="https://vk.com/v_soika"><h3>Мария Булычева</h3></a>
+											<p>Сценарист, дизайнер. Продумала дизайн маскотов и концепт логотипа. Aвтор аннотаций.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a target="_blank" href="https://vk.com/imlullaby">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user2.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a href="https://vk.com/imlullaby"><h3>Михаил Коган</h3></a>
+											<p>Саунд-продюсер. Написал саундреки для игры, этот процесс отнял у него много моральных ресурсов.<a href="https://vk.com/music/album/205223776_83158728">Ссылка на наш плей лист</a>></p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a target="_blank" href="https://vk.com/fgusterben">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user3.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a href="https://vk.com/fgusterben"><h3>Михаил Свистунов</h3></a>
+											<p>HTML-программист, веб-разработчик. Разработал модуль таймера обратного отсчета.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a  target="_blank" href="https://vk.com/id183172469">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user4.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a href="https://vk.com/id183172469"><h3>Ратибор Ванин</h3></a>
+											<p>3D-моделлер, монтажер. Создал всё наполнение игрового пространства. Снимал и монтировал видео-отчеты. </p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="row">
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a target="_blank" href="https://vk.com/erelsky">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"></i><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user5.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a href="https://vk.com/erelsky"><h3>Тимофей Ермошин</h3></a>
+											<p>HTML-кодер. Создал этот сайт и все его наполнение. Переодически напоминал коллективу о дедлайнах. </p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a target="_blank" href="https://vk.com/maltzev.pavlotr">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user6.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a href="https://vk.com/maltzev.pavlotr"><h3>Павел Мальцев</h3></a>
+											<p>Кодер. Написал весь игровой код, объединил графику и наполнение, которое является невидимым для пользователя. </p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a target="_blank" href="https://vk.com/alexix222">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user7.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a href="https://vk.com/alexix222"><h3>Алексей Гутянский</h3></a>
+											<p>Создатель и кодер мини-игр. Упорно и трудолюбиво трудился над созданием квестов в нутри игры.
+</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a  target="_blank" href="https://vk.com/dizel1747">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user8.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a href="https://vk.com/dizel1747"><h3>Матвей Злывко</h3></a>
+											<p>Главный 3D-моделлер. Отвечал за реализацию нашего проекта, следил за выполнением дедлайнов. Курировал группу 3D-отдела.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+<div class="row">
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a target="_blank" href="https://vk.com/kristinnaa2004">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"></i><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user9.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a href="https://vk.com/kristinnaa2004"><h3>Кристина Зезина</h3></a>
+											<p>Кодер, помощник сценариста. Помогала в разработке кода, следила за дедлайнами внутри группы. Также подала несколько идей для презентации проекта.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a target="_blank" href="https://vk.com/id452280511">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user10.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a href="https://vk.com/id452280511"><h3>Марк Герасимовский</h3></a>
+											<p>Разработка AR рекламы</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a target="_blank" href="https://vk.com/0n3t4p3r">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user11.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a href="https://vk.com/0n3t4p3r"><h3>Максим Шляков</h3></a>
+											<p>Принимал активное участие в разработке сайта. Предложил и создал несколько модулей.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						<div class="col-1-4">
+								<div class="wrap-col">
+									<div class="item t-center">
+										<div class="item-container">
+											<a target="_blank" href="https://yandex.ru/">
+												<div class="item-caption">
+													<div class="item-caption-inner">
+														<div class="item-caption-inner1">
+															<span class="user-social"><i class="fa fa-vk"></i></span>
+														</div>
+													</div>
+												</div>
+												<img src="images/user5.jpg" />
+											</a>
+										</div>
+										<div class="item-content">
+											<a href="https://yandex.ru/"><h3>Свободная вакансия</h3></a>
+											<p>Критерии: готов работать</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+<footer>
+	<div class="zerogrid top-footer", id="end">
+	<div class="zerogrid wrap-footer">
+		<div class="row">
+			<div class="col-1-4 col-footer-1">
+				<div class="wrap-col">
+					<h3>Местоположение</h3>
+					<p>Ул. Ульянова 10б
+					Нижний Новгород, Россия</p>
+				</div>
+			</div>
+			<div class="col-1-4 col-footer-2">
+				<div class="wrap-col">
+					<h3>Телефон</h3>
+					<p>+8-800-555-35-35</p>
+				</div>
+			</div>
+			<div class="col-1-4 col-footer-3">
+				<div class="wrap-col">
+					<h3>Эл. почта</h3>
+						<p>kvrunner@gmail.com</p>
+				</div>
+			</div>
+			<div class="col-1-4 col-footer-4">
+				<div class="wrap-col">
+					<h3>Наш сайт</h3>
+						<p>kvrunner.com</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</body></html>
